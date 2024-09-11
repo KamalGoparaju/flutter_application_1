@@ -1,0 +1,26 @@
+name: reminder_app
+description: A simple reminder application built with Flutter.
+
+# Add SDK constraints to specify the compatible Dart SDK versions
+environment:
+  sdk: '>=2.17.0 <4.0.0' # Ensure the Dart SDK is compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Add necessary packages for your app
+  flutter_local_notifications: ^13.0.0   # Local notifications package
+  intl: ^0.17.0                           # Package for date and time formatting
+  timezone: ^0.9.0                        # Package for timezone support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Specify assets if you have any (like images or icons)
+  # assets:
+  #   - assets/icon/app_icon.png  # Example asset for notifications
